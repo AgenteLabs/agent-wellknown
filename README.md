@@ -99,7 +99,7 @@ protocols. The human map of the whole stack is
 door — the same config-driven, dependency-free door every protocol repository in
 the estate serves — generated into `site/` by `node scripts/build-site.mjs` from
 `site.config.json` and its vendored inputs. It is committed here and, once
-deployed, is served at `https://flashylabs.github.io/agent-wellknown/`
+deployed, is served at `https://agentelabs.github.io/agent-wellknown/`
 (committed as of 2026-09-29, not yet fetched).
 
 ## Status
