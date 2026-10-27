@@ -29,12 +29,12 @@ export const SCHEMA_FILE = 'agent-1.json';
 
 /** The base URL the generated site is served from — identical to build-site.mjs. */
 export function siteBase(cfg) {
-  return cfg.domain ? `https://${cfg.domain}/` : `https://flashylabs.github.io/${cfg.property}/`;
+  return cfg.domain ? `https://${cfg.domain}/` : `https://agentelabs.github.io/${cfg.property}/`;
 }
 
 /** The DNS host of that base — the document's `domain`. */
 export function siteHost(cfg) {
-  return cfg.domain ?? 'flashylabs.github.io';
+  return cfg.domain ?? 'agentelabs.github.io';
 }
 
 /** Build agent-wellknown's own agent/1 document from the repository's sources. */

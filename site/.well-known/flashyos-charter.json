@@ -9,7 +9,7 @@
   "repositories": [
     {
       "name": "agent-wellknown",
-      "url": "github.com/FlashyLabs/agent-wellknown",
+      "url": "github.com/AgenteLabs/agent-wellknown",
       "default": true,
       "holds": [
         "spec",
