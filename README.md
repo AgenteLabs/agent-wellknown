@@ -109,4 +109,4 @@ disagree with; no organisation outside the repositories that wrote it has been
 verified serving a document, and that number is printed rather than rounded
 up.
 
-Licensed under Apache-2.0 (holder Flashy Labs); the estate register in flashyos `tools/estate-licences.mjs` is the authority.
+Licensed under Apache-2.0 (holder Agente Labs); the estate register in flashyos `tools/estate-licences.mjs` is the authority.

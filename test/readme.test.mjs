@@ -17,7 +17,7 @@ const readme = readFileSync(join(ROOT, 'README.md'), 'utf8');
 // Every github.com/FlashyLabs/<name> the README may link. Add here first.
 const ALLOW = ['web4', 'stack.json', 'agent-wellknown'];
 const LICENCE_LINE =
-  'Licensed under Apache-2.0 (holder Flashy Labs); the estate register in flashyos `tools/estate-licences.mjs` is the authority.';
+  'Licensed under Apache-2.0 (holder Agente Labs); the estate register in flashyos `tools/estate-licences.mjs` is the authority.';
 
 test('the first line is a level-1 heading', () => {
   assert.match(readme, /^# \S.*\n/, 'the README must open with a level-1 heading');
@@ -53,8 +53,8 @@ test('the licence line is the last line, exactly once', () => {
   assert.equal(readme.trimEnd().split('\n').at(-1), LICENCE_LINE, 'the licence line must be last');
 });
 
-test('the LICENSE file is present and is Apache-2.0, holder Flashy Labs', () => {
+test('the LICENSE file is present and is Apache-2.0, holder Agente Labs', () => {
   const license = readFileSync(join(ROOT, 'LICENSE'), 'utf8');
   assert.match(license, /Apache License/, 'LICENSE must be the Apache-2.0 text');
-  assert.match(license, /Copyright 2026 Flashy Labs/, 'LICENSE must name the copyright holder');
+  assert.match(license, /Copyright 2026 Agente Labs/, 'LICENSE must name the copyright holder');
 });
